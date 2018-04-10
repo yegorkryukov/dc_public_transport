@@ -1,3 +1,10 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
-2016_1_HourlyAggregate.csv filter=lfs diff=lfs merge=lfs -text
-2016_1_MonthlyAggregate.csv filter=lfs diff=lfs merge=lfs -text
+1.csv filter=lfs diff=lfs merge=lfs -text
+2.csv filter=lfs diff=lfs merge=lfs -text
+3.csv filter=lfs diff=lfs merge=lfs -text
+4.csv filter=lfs diff=lfs merge=lfs -text
+
+data_acquisition/uber/raw_data/2016/hourly_weekday/*.csv filter=lfs diff=lfs merge=lfs -text
+data_acquisition/uber/raw_data/2016/hourly_weekend/*.csv filter=lfs diff=lfs merge=lfs -text
+data_acquisition/uber/raw_data/2016/monthly_weekday/*.csv filter=lfs diff=lfs merge=lfs -text
+data_acquisition/uber/raw_data/2016/hourly_weekend/*.csv filter=lfs diff=lfs merge=lfs -text
