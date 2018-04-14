@@ -1,0 +1,6 @@
+## A folder for the functions, describing each analysis model:
+1. TCSI
+2. Linear Regression
+3. Multivariable Regression
+4. Poly....
+5. ...
