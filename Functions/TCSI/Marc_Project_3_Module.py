@@ -34,7 +34,8 @@ def TCSI(time_span, observations,year_start):
     result_df=result_df.drop(['nobs'],axis=1)
     result_df['Year']=''
     result_df['Month'] =''
-    result_df['Date'] = pd.date_range(start='2011',freq='M',periods=84)
+    length_of_interval = len(observations)
+    result_df['Date'] = pd.date_range(start='2011',freq='M',periods=length_of_interval)
 
     month_lst=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
     year=year_start
