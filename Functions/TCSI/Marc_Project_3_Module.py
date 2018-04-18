@@ -1,9 +1,5 @@
 
 # coding: utf-8
-
-# In[ ]:
-
-
 def TCSI(time_span, observations,year_start):
     """This function analyzes time series data and returns Returns statsmodels.tsa.seasonal.DecomposeResult in the form of a
     dictionary and a dataframe with Trend (T), Seasonal Index(S), and Noise (CI) in a dataframe.   
@@ -35,7 +31,7 @@ def TCSI(time_span, observations,year_start):
     result_df['Year']=''
     result_df['Month'] =''
     length_of_interval = len(observations)
-    result_df['Date'] = pd.date_range(start='2011',freq='M',periods=length_of_interval)
+    result_df['Date'] = pd.date_range(start=year_start,freq='M',periods=length_of_interval)
 
     month_lst=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
     year=year_start
@@ -70,4 +66,3 @@ def seasonal_index_rank(TCSI_df):
     rank_series= monthly_series.nlargest(n=12, keep='first')
     for j in range(rank_series.size):
         print (month_lst[rank_series.index[j]]+ '--> '+ str(monthly_series[rank_series.index[j]]))
-
