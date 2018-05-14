@@ -1,12 +1,15 @@
 
 Project Name:  Washington Metro Area Transportation Analysis
+
 Team Members
 Yegor Kryukov
 Sonya Smirnova
 Abubeker Mohammed
-Marc Pitarys
+Marc 
+
 Project Description/Outline
 Description:  Use DC area transportation data source to understand relationships between metro performance and the use of other modes of transportation. 
+
 Approach:  
 Collect data from available data sources: Metro rail/bus, for-hire vehicles, and bikes.
 Process Data: Clean, organize, and characterize
