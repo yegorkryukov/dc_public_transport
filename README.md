@@ -2,9 +2,13 @@
 Project Name:  Washington Metro Area Transportation Analysis
 
 Team Members
+
 Yegor Kryukov
+
 Sonya Smirnova
+
 Abubeker Mohammed
+
 Marc 
 
 Project Description/Outline
