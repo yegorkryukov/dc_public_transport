@@ -67,7 +67,7 @@ Find individual vehicles/Lyft/other Taxi ridership data and compare to other cit
 
 ## Team Members
 
-- Yegor Kryukov (solution architecture, polynomial regression funcrions, bus data)
+- Yegor Kryukov (solution architecture, polynomial regression functions, bus data)
 - Marc J. Pitarys (presentation, statistics and models, metro data)
 - Sonya Smirnova (linear regression functions and plots, ride-sharing companies data)
 - Abubeker Mohammed (idea, taxi data)
